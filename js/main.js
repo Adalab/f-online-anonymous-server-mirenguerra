@@ -17,3 +17,12 @@ menuBtn.innerHTML = "";
 const menuImg = document.createElement("img");
 menuImg.setAttribute("src", "images/ico-menu.svg");
 menuBtn.appendChild(menuImg);
+
+// Add img to closeBtn
+closeBtn.innerHTML = "";
+const closeImg = document.createElement("img");
+closeImg.setAttribute("src", "images/ico-close.svg");
+closeBtn.appendChild(closeImg);
+
+// Add class to nav
+navMenu.classList.add("menu-hidden");
