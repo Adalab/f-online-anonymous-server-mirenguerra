@@ -21,7 +21,7 @@ body {
 }
 
 .page {
-  position: relative;
+  /* position: relative; */
   flex-grow: 1;
 }
 
@@ -89,7 +89,7 @@ body {
 
 /* MAIN */
 .page__main {
-  margin-left: 30px;
+  margin: 0 30px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -99,7 +99,6 @@ body {
 .page__main-title {
   text-transform: uppercase;
   color: #ffffff;
-  transform: translateY(50%);
   width: 220px;
 }
 
@@ -133,10 +132,8 @@ body {
   }
 
   .page__main {
-    margin: 0;
+    margin: 0 60px;
     position: absolute;
-    left: 60px;
-    max-width: 400px;
   }
 
   .page__main-title {
@@ -157,10 +154,8 @@ body {
   }
 
   .page__main {
-    margin: 0;
     position: absolute;
-    left: 120px;
-    max-width: 1000px;
+    max-width: 990px;
   }
 
   .page__main-title {
