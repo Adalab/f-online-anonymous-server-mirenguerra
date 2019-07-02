@@ -1,6 +1,6 @@
 # Anonymous Server
 
-_A simple responsive page with a "drop-down" menu. Made with HTML, CSS and JavaScript, without using CSS frameworks or preprocessors.._
+_A simple responsive page with a "drop-down" menu. Made with HTML, CSS and JavaScript, without using CSS frameworks or preprocessors._
 
 ## Starting 🚀
 
